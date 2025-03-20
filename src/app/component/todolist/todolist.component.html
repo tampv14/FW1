@@ -1,0 +1,10 @@
+<input type="text" class="border" [(ngModel)]="job">
+<button (click)="hanldeAddJob()" class="add-btn">Add</button>
+
+<h1>Danh sách hoạt động</h1>
+<ul>
+  <li *ngFor="let item of Jobs; let i = index">
+    {{ i + 1 }}. {{ item }}
+    <button (click)="hanldeDelete(i)" class="delete-btn">Xóa</button>
+  </li>
+</ul>

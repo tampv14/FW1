@@ -1,0 +1,34 @@
+/* Style chung cho cả hai nút */
+button {
+  padding: 8px 12px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+/* Nút Add */
+button.add-btn {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+button.add-btn:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Nút Xóa */
+button.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border-color: #dc3545;
+  margin-left: 10px;
+}
+
+button.delete-btn:hover {
+  background-color: #a71d2a;
+  border-color: #a71d2a;
+}
